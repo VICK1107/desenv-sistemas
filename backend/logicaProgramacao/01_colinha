@@ -33,9 +33,9 @@ assim ja aparece seu trabalho executado
 
 LEMBRANDO OS CODIGOS 
 if = condicao 
-int = idade 17
+int = idade 1 
 float salario =555,25
-bool tem carteira = true ou false 
+bool tem cart ira = true ou false 
 string nome = "vitoria"
 input = pedir informacao 
 print = mostrar inforacao 
