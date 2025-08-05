@@ -7,8 +7,8 @@ divisao = a / b
 PERCORRER NUMEROS COM SETAS 
 seta > = maior 
 seta < = menor 
-seta >= "numero maior " [vai contar o numero maior apos 10\exemplo]
-seta <= "numero menor " [vai contar o numero menor apos 10\exemplo]
+seta > = "numero maior " [vai contar o numero maior apos 10\exemplo]
+seta < = "numero menor " [vai contar o numero menor apos 10\exemplo]
 
 PARA SALVAR O PROJETO 
 clone do git https://github.com/VICK1107/desenv-sistemas
@@ -23,9 +23,9 @@ clica no mouse botao direito dentro da pagina de logica\programacao
 e clica no nome new file, coloque o nome da sua condicional e da enter 
 
 EXECUTANDO/TERMINAL
-Terminal: cd. o nome da pasta e table 
+Terminal: cd o nome da pasta e table 
 enter
-cd . logica table 
+cd  logica table 
  enter 
 python o nome do arquivo 
 enter 
@@ -45,3 +45,6 @@ CODIGOS DE LAÇOS
 For (para)- trabalhar com listas definida, percorrer numeros Ex: 1,2,3,4,5,6,7,8,9,10
 While (enquanto)- trabalhar com senha  
 Range - intervalo de numeros Ex: contar de 0 a 4 
+
+CODIGOS DE FUNÇÃO 
+def = o que inicia uma funcao 
