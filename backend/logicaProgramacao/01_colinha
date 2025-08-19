@@ -51,3 +51,14 @@ def = o que inicia uma funcao
 
 
 == comparando valor
+
+
+Nome = "vivi"
+Nomes = ["Rosangela", "Vitoria", "Gustavo"]
+                0        1      2  
+Salarios = [1.955.42, 2.000, 1750.40]
+Salarios.Aprend(1200.00) = adicionar o registro no final da lista 
+Salarios.Insert(1,1700.00) = colocar uma posicao expecifica na sua lista 
+
+Nomes.remove("Vitoria")
+Nomes.Pop(2)  ou  Nomes.Pop(1)  remove a posicao informada
