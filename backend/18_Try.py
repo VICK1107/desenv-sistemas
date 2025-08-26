@@ -227,4 +227,3 @@ def verificar_lista(lista):
 
 
 
-
