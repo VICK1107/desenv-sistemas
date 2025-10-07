@@ -62,3 +62,11 @@ Salarios.Insert(1,1700.00) = colocar uma posicao expecifica na sua lista
 
 Nomes.remove("Vitoria")
 Nomes.Pop(2)  ou  Nomes.Pop(1)  remove a posicao informada
+
+
+
+   CRUD
+#create - CRIAR
+#read - LER 
+#update - ATUALIZAR
+#delete - DELETAR
