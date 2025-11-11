@@ -1,3 +1,7 @@
+
+        PROVA DIA 18/11/2025 
+
+
 O que é qualidade de software ?
     #RESPOSTA DO PROFESSOR 
 performace - velocidade 
@@ -324,3 +328,44 @@ Vazamento de dados do usuário, como senha, endereço ou dados de pagamento.
 
 10 - Falha de comunicação interna
 Notificações não chegam aos usuários, restaurantes ou entregadores, causando confusão nos pedidos. 
+
+
+
+    Tipos de Testes
+- Niveis de testes - (unidade, integração, sistemas)
+- Técnicas de testes - (caixa, "preta", "branca", "cinza")
+- Categorias de testes - Funcionais e não Funcionais
+
+    Niveis de Testes 
+- sistema end-to-end  --> Sistema completo -- 3 da piramide
+- integração --> Add funcionalidade no Sistema -- 2 da piramide 
+- unidade --> Uma funcionalidade -- 1 da piramide 
+
+Níveis de Testes – Resumo
+Unidade (Unit Test)
+Testa uma funcionalidade isolada.
+Base da pirâmide → muitos testes rápidos.
+Exemplo: função que calcula o valor de um pedido.
+Integração (Integration Test)
+Testa a interação entre módulos.
+Meio da pirâmide → quantidade moderada.
+Exemplo: adicionar item no carrinho e atualizar o total.
+Sistema / End-to-End (E2E)
+Testa o sistema completo.
+Topo da pirâmide → poucos testes, mais complexos.
+Exemplo: simular todo o fluxo de pedido do usuário.
+Resumo da Pirâmide:
+Base → unidade (mais testes)
+Meio → integração (quantidade média)
+Topo → sistema/E2E (menos testes)
+
+
+    Técnicas de Testes - As "CAIXAS"
+- Caixa Preta - O "TESTER" não conhece o código.Testa -  somente a funcionalidade
+- Caixa Branca - O "TESTER" tem acesso total ao código para realizar os testes e sugerir correções
+- Caixa Cinza - O "TESTER" tem um breve conhecimento do código, e testa a funcionalidade 
+
+
+    Categorias de Testes 
+- Funcionais - funcionalidade do Sistema --> Cadastro/Lista/Integração
+-  Não - Funcionais --> Performance/Usabilidade/Confiabilidade 
