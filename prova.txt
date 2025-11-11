@@ -1,0 +1,326 @@
+O que é qualidade de software ?
+    #RESPOSTA DO PROFESSOR 
+performace - velocidade 
+usabilidade - o quão facil de usar é o sistema 
+manutenibilidade - é facil corrigir erros?
+confiabilidade - o software funciona corretamente 
+
+     #RESPOSTA COMPLETA MINHA
+Qualidade de software é o conjunto de características que determinam o quão bem 
+um software atende às necessidades dos usuários e aos requisitos especificados. Ela garante que o sistema funcione corretamente, seja eficiente, fácil de usar e de manter.
+
+Principais atributos da qualidade de software:
+
+Performance (Desempenho): mede a velocidade e a eficiência com que o sistema executa suas funções.
+
+Usabilidade: avalia o quão fácil é para o usuário aprender e utilizar o sistema.
+
+Manutenibilidade: indica se o software é fácil de corrigir, atualizar e melhorar.
+
+Confiabilidade: verifica se o software funciona corretamente e de forma estável, sem falhas durante o uso.
+
+
+
+    #RESPOSTA DO PROFESSOR 
+O custo do bug - Porque testar importa?
+ RESPOSTA --> Testar software é uma etapa essencial no desenvolvimento, pois garante que o sistema funcione corretamente antes de ser colocado em uso. 
+Quando um erro (bug) é descoberto tardiamente — especialmente após o lançamento — o custo para corrigi-lo aumenta exponencialmente.
+
+    #RESPOSTA  COMPLETA MINHA 
+1996 - erro de conversão de dados = prejuízo de US$ 370 milhões de dólares 
+1999 - NASA - perdeu uma sonda = prejuízo de US$  125 milhões de dólares
+1994 - INTEL - cálculo do processador = prejuízo de US$ 475 milhões de dólares
+
+1994 – Intel: um erro de cálculo no processador Pentium causava resultados incorretos em operações matemáticas.
+O problema levou a um prejuízo estimado em US$ 475 milhões com trocas e indenizações.
+
+1996 – Erro de conversão de dados: uma falha em sistemas de controle resultou em um prejuízo de cerca de US$ 370 milhões,
+mostrando como simples erros de conversão podem ter grandes impactos.
+
+1999 – NASA: a sonda Mars Climate Orbiter foi perdida devido à confusão entre unidades
+Métricas e imperiais (quilogramas e libras). O erro custou aproximadamente US$ 125 milhões.
+
+
+
+    #RESPOSTA DO PROFESSOR 
+Diferença entre: Qa x Qc
+
+Qa --> garantia de qualidade 
+    foco: processos / previnir: defeitos 
+
+Qc --> controle de qualidade 
+    foco: produto / previnir: defeitos
+
+    #RESPOSTA COMPLETA MINHA 
+QA – Garantia de Qualidade (Quality Assurance)
+
+Foco: nos processos de desenvolvimento.
+
+Objetivo: prevenir defeitos antes que eles ocorram.
+
+Atuação: define e melhora Métodos, padrões e práticas que garantem que o software seja desenvolvido corretamente desde o início.
+
+Exemplo: criação de planos de qualidade, definição de padrões de codificação, auditorias de processo, revisões de requisitos.
+
+
+QC – Controle de Qualidade (Quality Control)
+
+Foco: no produto final.
+
+Objetivo: detectar defeitos no software após o desenvolvimento.
+
+Atuação: envolve a execução de testes, inspeções e validações para verificar se o produto está conforme os requisitos especificados.
+
+Exemplo: testes funcionais, testes de desempenho, verificação e validação do sistema.
+
+
+
+    #RESPOSTA DO PREOFESSOR 
+Modelo Cascata:
+    requisitos --> análise --> projeto --> codificação --> implantação 
+
+    #RESPOSTA COMPLETA MINHA 
+O Modelo Cascata é um dos modelos mais tradicionais de desenvolvimento de software.
+Ele segue uma sequência linear e rígida de etapas, onde cada fase precisa ser concluída antes do início da próxima — como uma “cascata”,
+em que a água desce de um nível para outro sem voltar.
+
+🔹 Etapas do Modelo Cascata:
+Requisitos:
+Nesta fase, são coletadas e documentadas todas as necessidades do cliente. Define-se o que o sistema deve fazer, suas funcionalidades e restrições.
+Exemplo: levantamento de requisitos funcionais e não funcionais.
+
+Análise:
+Os requisitos são analisados para entender sua viabilidade técnica e lógica. O objetivo é transformar as necessidades em um modelo de sistema que oriente o desenvolvimento.
+Exemplo: criação de diagramas de casos de uso e modelos de dados.
+
+Projeto (Design):
+Define-se como o sistema será construído, especificando arquitetura, interface, banco de dados e componentes.
+Exemplo: desenho da arquitetura do software e escolha de tecnologias.
+
+Codificação (Implementação):
+Nessa etapa, os desenvolvedores escrevem o código do sistema de acordo com o projeto definido anteriormente.
+Exemplo: programação das funcionalidades, integração dos Módulos e testes unitários.
+
+Implantação (Entrega e Manutenção):
+O software é implantado no ambiente do cliente, testado em produção e, caso necessário, passam a ocorrer manutenções e correções.
+Exemplo: instalação, treinamento de usuários e suporte pós-implantação.
+Características:
+
+Processo sequencial e bem definido.
+Cada fase deve ser concluída e validada antes da próxima começar.
+Documentação detalhada em todas as etapas.
+
+⚠️ Desvantagens:
+Pouca flexibilidade: mudanças são difíceis após o início do projeto.
+
+Feedback tardio: o cliente só vê o produto no final.
+
+Risco de erros acumulados: um erro em uma fase inicial pode afetar todas as outras.
+
+✅ Vantagens:
+
+Processo simples e organizado.
+
+Ideal para projetos pequenos e bem definidos.
+
+Boa documentação e rastreabilidade.
+
+
+
+    #RESPOSTA DO PROFESSOR 
+Modelo V:
+requisitos --> arquitetura --> projeto (teste de aceitação) --> código --> unidade (teste de sistema / teste de integração)
+
+    #RESPOSTA MINHA COMPLETA
+O Modelo V é uma evolução do modelo cascata, que destaca a relação direta entre cada fase de desenvolvimento e sua respectiva fase de teste.
+Ele é chamado de “V” porque o processo segue um formato visual em forma de “V”:
+
+No lado esquerdo estão as fases de definição e planejamento.
+
+No lado direito estão as fases de teste e verificação correspondentes.
+
+O foco principal do Modelo V é garantir a qualidade do software desde o início, associando cada etapa de desenvolvimento a um tipo de teste.
+
+
+Requisitos:
+Nessa fase, São definidos os requisitos do sistema, ou seja, o que o software deve fazer e quais são as expectativas do cliente.
+
+Documento base para o Teste de Aceitação, que verificará se o produto final atende às necessidades do usuário.
+
+Arquitetura:
+Define-se a estrutura geral do sistema, especificando os Módulos e como eles irão interagir.
+
+Essa fase se relaciona com o Teste de Sistema, que validará o comportamento do sistema como um todo.
+
+Projeto (Design Detalhado):
+É o momento de definir como cada componente será implementado, detalhando classes, funções, banco de dados, etc.
+
+Está ligada ao Teste de Integração, que verifica se os Módulos funcionam corretamente em conjunto.
+
+Código (Implementação):
+Nesta etapa, o sistema é codificado conforme o projeto.
+
+Relaciona-se com o Teste de Unidade, que verifica o funcionamento correto de cada parte isoladamente (funções, classes, Métodos).
+
+Integração e Testes:
+Após a codificação, inicia-se a sequência de testes conforme o lado direito do “V”:
+
+Teste de Unidade: verifica o funcionamento de cada Módulo individual.
+
+Teste de Integração: garante que os Módulos funcionem bem em conjunto.
+
+Teste de Sistema: valida o sistema completo em relação aos requisitos técnicos.
+
+Teste de Aceitação: confirma que o software atende às necessidades e expectativas do cliente.
+
+Características do Modelo V:
+
+Enfatiza o planejamento e execução de testes desde o início do projeto.
+
+Cada fase de desenvolvimento tem um teste correspondente.
+
+Maior controle de qualidade e facilidade de rastreabilidade entre requisitos e testes.
+
+✅ Vantagens:
+
+Facilita a detecção precoce de erros.
+
+Integra o processo de testes com o desenvolvimento.
+
+Garante alta qualidade do produto final.
+
+Boa rastreabilidade entre requisitos e validações.
+
+⚠️ Desvantagens:
+
+Pouco flexível para mudanças após o início.
+
+Exige documentação detalhada.
+
+Menos adequado para projetos que evoluem de forma iterativa ou com requisitos incertos.
+
+
+
+    #RESPOSTA DO PROFESSOR 
+Metodologias áGEIS:
+Daily: reunião diária (15 mnutos)
+Squad: time de desenvolvedores
+Sprint: Pacote com as Implementação do período (semanal ou quinzenal)
+
+    #RESPOSTA COMPLETA MINHA
+As Metodologias Ágeis são um conjunto de práticas e princípios voltados para o desenvolvimento rápido, colaborativo e adaptável de software.
+Elas surgiram como uma alternativa aos modelos tradicionais (como o modelo cascata), que são mais rígidos e demorados.
+O foco das metodologias ágeis é entregar valor continuamente ao cliente, adaptar-se a mudanças e melhorar a comunicação entre os membros da equipe.
+
+Princípios das Metodologias Ágeis
+
+Entregar software funcional com frequência.
+
+Colaboração constante entre desenvolvedores e clientes.
+
+Adaptação rápida a mudanças nos requisitos.
+
+Foco em pessoas e interações mais do que em processos e ferramentas.
+
+Comunicação clara e contínua dentro da equipe.
+
+Esses princípios foram formalizados no Manifesto Ágil (2001).
+
+Daily (Daily Scrum)
+É a reunião diária de alinhamento da equipe.
+Dura cerca de 15 minutos.
+O objetivo é acompanhar o progresso e identificar impedimentos rapidamente.
+Cada membro responde a três perguntas:
+O que fiz ontem?
+O que vou fazer hoje?
+Existe algum impedimento?
+👉 Benefício: mantém a equipe sincronizada e garante que todos saibam o andamento do trabalho.
+
+🧑‍🤝‍🧑 Squad:
+É o time de desenvolvimento ágil, formado por profissionais de diferentes áreas (desenvolvedores, testadores, designers etc.).
+👉 Exemplo: um squad pode ser responsável apenas pelo Módulo de login e cadastro de usuários de um sistema.
+
+Sprint
+É o período de tempo definido (geralmente de 1 a 2 semanas) durante o qual a equipe trabalha em um conjunto de funcionalidades chamadas de histórias de usuário.
+Ao final da sprint, o time entrega um incremento do produto, ou seja, algo funcional e testado.
+👉 Exemplo: uma sprint pode ter como objetivo entregar o cadastro de novos usuários e a tela de login.
+
+
+Etapas comuns da Sprint:
+Planejamento da Sprint (Sprint Planning) – definir o que será desenvolvido.
+Execução – desenvolvimento e testes das funcionalidades.
+Revisão (Sprint Review) – apresentação do que foi entregue.
+Retrospectiva (Sprint Retrospective) – reflexão sobre o que pode ser melhorado no próximo ciclo.
+
+
+
+    #RESPOSTA DO PROFESSOR 
+Hard Skills: habilidades tecnicas 
+- lógica de programação
+- conhecimento de negócio
+
+Soft Skill:
+- pensamentos críticos 
+- comunicação clara 
+- atenção nos detalhes
+- pessimismo construtivo
+
+    #RESPOSTA MINHA COMPLETA
+No ambiente profissional — especialmente na área de tecnologia e desenvolvimento de software —
+é essencial que os profissionais desenvolvam dois tipos de habilidades complementares: as Hard Skills e as Soft Skills.
+
+Essas competências ajudam tanto na parte técnica quanto na interação e colaboração dentro das equipes.
+
+As Hard Skills são as habilidades técnicas e específicas que podem ser ensinadas, medidas e testadas.
+Elas são adquiridas por meio de cursos, estudos, treinamentos ou experiência prática.
+
+Exemplos de Hard Skills:
+Lógica de programação: capacidade de criar algoritmos e resolver problemas de forma estruturada e eficiente.
+Conhecimento de negócio: entender as regras, os processos e os objetivos da área em que o software será aplicado, garantindo que o sistema atenda às necessidades reais da empresa.
+
+
+As Soft Skills são as habilidades interpessoais e comportamentais, relacionadas à forma como a pessoa se comunica, trabalha em equipe e resolve problemas.
+Elas são fundamentais para o bom convívio e para o sucesso em ambientes colaborativos.
+
+Exemplos de Soft Skills:
+Pensamento crítico: analisar informações de forma lógica e questionar antes de agir ou decidir.
+Comunicação clara: expressar ideias e feedbacks de forma objetiva e respeitosa, garantindo entendimento entre os membros da equipe.
+Atenção aos detalhes: observar minuciosamente cada parte do trabalho, evitando erros e garantindo qualidade.
+Pessimismo construtivo: prever possíveis problemas e riscos antes que aconteçam, ajudando a prevenir falhas.
+
+
+
+                ATIVIDADES
+Cenário: AIQ FOME   
+listar 10 coisas que poderiam dar errado no sistema 
+    #RESPOSTA
+
+1 - Erro no cadastro de usuários
+Clientes não conseguem criar contas ou logar.
+
+2 - Falha no processamento de pedidos
+Pedidos não são registrados ou duplicados no sistema.
+
+3 - Erro na integração com restaurantes
+Cardápios desatualizados ou informações incorretas sobre disponibilidade de pratos.
+
+4 - Problemas de pagamento
+Transações não completam, cartões recusados ou pagamentos duplicados.
+
+5 - Falha na atualização do status do pedido
+Cliente não consegue acompanhar se o pedido está sendo preparado, enviado ou entregue.
+
+6 - Erro na entrega ou geolocalização
+Motoristas não recebem endereços corretos ou GPS falha, atrasando entregas.
+
+7 - Sistema lento ou travamentos
+Aplicativo demora a abrir ou fecha inesperadamente durante o uso.
+
+8 - Bug na avaliação ou feedback do cliente
+Avaliações não são salvas ou aparecem incorretamente.
+
+9 - Problemas de segurança
+Vazamento de dados do usuário, como senha, endereço ou dados de pagamento.
+
+10 - Falha de comunicação interna
+Notificações não chegam aos usuários, restaurantes ou entregadores, causando confusão nos pedidos. 
